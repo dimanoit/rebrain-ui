@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/b9663db6-3b80-44ce-897a-cfc9164ccd33/AppServices/subscriptions/b9663db6-3b80-44ce-897a-cfc9164ccd33/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ReBrainSPA",
+    "appService.deploySubpath": "dist/rebrain"
+}
