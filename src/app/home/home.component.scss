@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #E5E5E5;
+
+  padding-left: 108px;
+  padding-right: 140px;
+  padding-top: 68px;
+}
+
+.company-name {
+  font-family: "Irish Grover";
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 79px;
+
+  color: #e55e6d;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  margin-top: 60px; 
+
+  .text {
+    font-size: 70px;
+    line-height: 85px;
+    margin-right: 262px;
+
+    color: #e55e6d;
+
+    .text-highlight{
+        color: #284C40;
+    }
+  }
+
+  .home-image {
+    width: 493px;
+    height: 517px;
+  }
+}
