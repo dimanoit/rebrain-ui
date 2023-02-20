@@ -1,37 +1,67 @@
 .container {
   width: 100%;
   height: 100%;
-  background-color: #FCF4EC;
+  background-color: #fcf4ec;
 
   padding-left: 108px;
   padding-right: 140px;
   padding-top: 68px;
 }
 
-.company-name {
-  font-family: "Irish Grover";
-  font-weight: 400;
-  font-size: 65px;
-  line-height: 79px;
+.header {
+  display: flex;
+  justify-content: space-between;
 
-  color: #284C40;
+  .company-name {
+    font-family: Irish Grover;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+
+    color: #284c40;
+  }
+
+  .info-links span:first-child {
+    margin-right: 59px;
+  }
+
+  .signup-button {
+    background: #ffffff;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    width: 263px;
+    height: 80px;
+
+    .btn-text {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 31px;
+
+      margin-right: 20px;
+    }
+
+    .btn-image {
+      width: 54.9px;
+      height: 45.5px;
+    }
+  }
 }
 
 .intro {
   display: flex;
   align-items: center;
-  margin-top: 60px; 
+  margin-top: 60px;
+  justify-content: space-between;
 
   .text {
     font-size: 70px;
     line-height: 85px;
-    margin-right: 262px;
 
     color: #e55e6d;
-
-    .text-highlight{
-        color: #284C40;
-    }
   }
 
   .home-image {
